@@ -36,6 +36,6 @@ We create a bar chart that shows the total number of global Covid-19 cases to da
 
 and then we break down the chart to show the increase in cases by country in line graphs:
 
-This also allows us to manipulate our chart to look at specific countries individually or with other selected countries, and to zoom into specific time ranges. The HTML file for the line chart is in this repository saved as [covid19_global_cases_line.html]().
+This also allows us to manipulate our chart to look at specific countries individually or with other selected countries, and to zoom into specific time ranges. The HTML file for the line chart is in this repository saved as [covid19_global_cases_line.html](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19_global_cases_line.html).
 
 ## 4. Business Answer
