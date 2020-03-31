@@ -41,6 +41,6 @@ and then we break down the chart to show the increase in cases by country in lin
 This also allows us to manipulate our chart to look at specific countries individually or with other selected countries, and to zoom into specific time ranges. The HTML file for the line chart is in this repository saved as [covid19_global_cases_line.html](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19_global_cases_line.html).
 
 We can use this html file (or graph within our notebook) to further explore our data and share with others:
-![alt text]()
+![alt text](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19-country-line-gif.gif)
 
 ## 4. Business Answer
