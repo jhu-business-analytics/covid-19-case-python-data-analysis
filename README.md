@@ -33,8 +33,10 @@ or, you can look through this Colab notebook to find the executed code: [![Open 
 Here, we're mainly exploring some big-picture data findings to gain a baseline understanding of how the novel coronavirus spreads, and to see if we can find any interesting trends to note in global spread of the virus. 
 
 We create a bar chart that shows the total number of global Covid-19 cases to date:
+![alt text](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19-global-cases-march26.png)
 
 and then we break down the chart to show the increase in cases by country in line graphs:
+![alt text](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19-country-cases-march26.png)
 
 This also allows us to manipulate our chart to look at specific countries individually or with other selected countries, and to zoom into specific time ranges. The HTML file for the line chart is in this repository saved as [covid19_global_cases_line.html](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19_global_cases_line.html).
 
