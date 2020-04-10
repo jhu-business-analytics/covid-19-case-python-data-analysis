@@ -1,46 +1,45 @@
-# Data Analytics for Crisis Management using Covid-19 Data
+# Python Data Analysis for COVID-19 Pandemic Crisis Management
 
-## Data Analysis with Covid-19 Data
+The novel coronavirus disease (Covid-19) pandemic is an enormous and unprecedented challenge for all individuals, businesses, organizations, and governments. Available information about the virus characteristics, infection rate, mortality rate, and subsequent effects for businesses, schools, healthcare organizations, and governments, changes daily, which make quick and accurate crisis and data management processes even more valuable and necessary. We can take action to protect and help minimize the effects of the disease if we have systematic ways to quickly and objectively analyze data or other research and communicate these outcomes to the necessary decision-makers or to the public, which is challenging in a novel situation.
 
-Even though we're using a new tool to conduct data analysis, we'll still want to use our same business analytics process to solve problems:
+The [Stanford Human-Centered Artificial Intelligence](https://hai.stanford.edu/) center recently held a virtual conference to talk about the intersection of AI and Covid-19, where one speaker talked about the county-level needs summarized here:
 
-1. __Business Question__: what's our need or pain point? what do we want to figure out (big-picture) that might not be associated with metrics at this point?
-2. __Data Question__: what data sources do we have that might hlep us answer this question? what metrics can help us figure out if we're on the right track to a feasible recommendation or proposal? what methods or metrics do other similar organizations/institutions/industries use to answer related questions?
-3. __Data Answer__: calculate metrics, trends, models and evaluate the numerical results. what do these calculations and models tell us from a statistical perspective? how "good" are our models?
-4. __Business Answer__: what do these numbers and data visualizations mean for someone not familar with statistics or the data in general? how do we relate these numbers back to answering (at least a part of) the original business question? what additional information do we need or what are the next steps to solving this?
+! [alt text](screenshot png from HAI)
 
-Businesses in all industries have had to make quick decisions on hiring and firing employees, setting up remote work availability, ramping up or taming down production, and providing additional services (such as distributing free meals) in a matter of days without much information. What can we learn from what people have done so far and how this relates to their busines or city characteristics (demographics, socioeconomics status, business/people population, number of people per capita who've been tested positive for Covid-19, etc.) to better prepare for additional restrictions and recommendations or to prepare for future crisis scenarios?
+There a lot of [uncertainty about predicting](https://fivethirtyeight.com/features/why-its-so-freaking-hard-to-make-a-good-covid-19-model/) how many cases and how many deaths might occur in the US, but what we can do it look at how prepared certain counties might be to handle an influx of infected patients, which might inform the kinds of resources that businesses might donate or send to different counties, or what kind of policies might be most effective in mitigating the spread of Covid-19.
 
-## 1. Business Question
-__*What kinds of resources and support do municipalities need to better manage citizens, services, and other organizational requirements during the covid-19 pandemic?*__
+## Business Question: Which US counties are the most vulnerable to the pandemic based on population characteristics and hospital bed availability?
 
-This question is probably too broad and multi-faceted for us to answer in a way that's useful for whoever needs to be informed, but this might be an example of an initial question that someone might ask, especially with so much uncertainty surrounding the pandemic. 
+We want to better understand which counties might be most vulnerable to a fast-growing infection rate so that those counties might be able to simultaneously implement social distancing policies that allow people to stay at home and still have access to essential items such as food and healthcare _and_ prepare healthcare workers and medical supplies for an influx of patients. 
 
-Let's explore some general data sets related to Covid-19, cases, recovery, mortality, restaurant use, and work from home policies to help us better understand the situation and perhaps develop a clearer business question for a more focused business solution. 
+## Data Question: What data and metrics can we use to show and monitor the COVID-19 pandemic in US Counties?
 
-## 2. Data Question
-__*What data sets have accurate and reliable data that we can use to help us answer any business questions, and what metrics do we need to keep track of and calculate to help answer this?*__
+We’ll use data from the following sources to assess our business question: 
+* [Johns Hopkins University Center for Systems Science and Engineering](https://github.com/CSSEGISandData/COVID-19) (COVID-19 case, death, recovered data)
+* [New York Times](https://github.com/nytimes/covid-19-data) (COVID-19 US county-specific data)
+* American Community Survey](https://data.census.gov/cedsci/table?q=United%20States&g=0100000US&tid=ACSDP1Y2018.DP05) (US county population data)
+* [US Census](https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html) (state and county geographic data)
+* [Homeland Infrastructure Foundation-Level](https://hifld-geoplatform.opendata.arcgis.com/datasets/hospitals)(US hospital data)
 
-We'll first work with the open data set from the [Johns Hopkins Center for Systems Science and Engineering](https://systems.jhu.edu/), who made and maintains the [coronavirus covid-19 global cases dashboard](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6).
+This data is also available in this repository. 
 
-We'll use Python in the IDE (Integrated Development Environment--essentially where we can write and execute code) [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb#recent=true) for our initial work with Python. This is free to use (up to a certain RAM and Disk space), but you will need to download this in your Google Drive account. The markdown text cells are very similar to the markdown language used in GitHub repository markdown files, but there are some minor changes, outlined [here](https://colab.research.google.com/notebooks/markdown_guide.ipynb#scrollTo=tPqPXAKKkzaM).
-
-We'll work through this Colab notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZA7-VpFHMFwej0JArcBwh8OkxjQ9-U_0)
+In our Python Notebooks we’ll use the following packages to conduct our analysis:
+```
+pandas 1.0.3
+numpy 1.81.1
+plotly 4.60
+```
+We'll also work through this Colab notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZA7-VpFHMFwej0JArcBwh8OkxjQ9-U_0)
 
 or, you can look through this Colab notebook to find the executed code: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zClEc4YwwmQcxYKtTVT5YgqHVKn2GSqJ)
 
 ## 3. Data Answer
-Here, we're mainly exploring some big-picture data findings to gain a baseline understanding of how the novel coronavirus spreads, and to see if we can find any interesting trends to note in global spread of the virus. 
+The steps for our data analysis are available in the following GitBook tutorials:
 
-We create a bar chart that shows the total number of global Covid-19 cases to date:
-![alt text](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19-global-cases-march26.png)
+1. [Getting Started with Python and General Python Analysis with Google Colaboratory Notebooks](https://app.gitbook.com/@melanieshimano/s/python-data-analysis/)
+1. [Merging Data and Creating Data Visualizations with Ploty in JupyterLab Notebooks](https://app.gitbook.com/@melanieshimano/s/merging-data-and-plotly-visualizations/)
 
-and then we break down the chart to show the increase in cases by country in line graphs:
-![alt text](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19-country-cases-march26.png)
+The final notebooks from these tutorials are also available in this notebook:
 
-This also allows us to manipulate our chart to look at specific countries individually or with other selected countries, and to zoom into specific time ranges. The HTML file for the line chart is in this repository saved as [covid19_global_cases_line.html](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19_global_cases_line.html).
+## Business Answer: Which Counties Should be Most Cautious as the COVID-19 Pandemic spread across the US?
 
-We can use this html file (or graph within our notebook) to further explore our data and share with others:
-![alt text](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/covid19-country-line-gif.gif)
-
-## 4. Business Answer
