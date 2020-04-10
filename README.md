@@ -4,7 +4,7 @@ The novel coronavirus disease (Covid-19) pandemic is an enormous and unprecedent
 
 The [Stanford Human-Centered Artificial Intelligence](https://hai.stanford.edu/) center recently held a virtual conference to talk about the intersection of AI and Covid-19, where one speaker talked about the county-level needs summarized here:
 
-! [alt text](screenshot png from HAI)
+![alt text](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/county_needs_during_covid19.png)
 
 There a lot of [uncertainty about predicting](https://fivethirtyeight.com/features/why-its-so-freaking-hard-to-make-a-good-covid-19-model/) how many cases and how many deaths might occur in the US, but what we can do it look at how prepared certain counties might be to handle an influx of infected patients, which might inform the kinds of resources that businesses might donate or send to different counties, or what kind of policies might be most effective in mitigating the spread of Covid-19.
 
