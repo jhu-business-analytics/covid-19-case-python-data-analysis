@@ -41,7 +41,7 @@ You can work through the tutorials and copy the code to your own Notebook, or us
 
 The final Google Notebook with executed code/solutions is available here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zClEc4YwwmQcxYKtTVT5YgqHVKn2GSqJ)
 
-1. [Merging Data and Creating Data Visualizations with Ploty in JupyterLab Notebooks](https://app.gitbook.com/@melanieshimano/s/merging-data-and-plotly-visualizations/)
+2. [Merging Data and Creating Data Visualizations with Ploty in JupyterLab Notebooks](https://app.gitbook.com/@melanieshimano/s/merging-data-and-plotly-visualizations/)
 
 This tutorial reviews more solutions for data cleaning, data merging, and data visualizations with plotly. You can use [this](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/2020-04-03-covid19-county-management-gitbook-STARTER-melanieshimano.ipynb) pre-commented starter notebook to follow along with the tutorial, or copy and paste the code from the codeblocks (dark blue text boxes) in the tutorial.
 
