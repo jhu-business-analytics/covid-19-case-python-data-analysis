@@ -29,17 +29,23 @@ pandas 1.0.3
 numpy 1.81.1
 plotly 4.60
 ```
-We'll also work through this Colab notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZA7-VpFHMFwej0JArcBwh8OkxjQ9-U_0)
-
-or, you can look through this Colab notebook to find the executed code: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zClEc4YwwmQcxYKtTVT5YgqHVKn2GSqJ)
 
 ## 3. Data Answer
 The steps for our data analysis are available in the following GitBook tutorials:
 
 1. [Getting Started with Python and General Python Analysis with Google Colaboratory Notebooks](https://app.gitbook.com/@melanieshimano/s/python-data-analysis/)
+
+This tutorial reviews background on why we're using Python (pros/cons vs. Excel and other programming languages), Google Colaboratory Notebooks, Anaconda and JupyterLab Notebooks, and our initial data analysis with JHU CSSE COVID-19 data. 
+
+You can work through the tutorials and copy the code to your own Notebook, or use this pre-commented notebook without code to review the analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZA7-VpFHMFwej0JArcBwh8OkxjQ9-U_0)
+
+The final Google Notebook with executed code/solutions is available here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zClEc4YwwmQcxYKtTVT5YgqHVKn2GSqJ)
+
 1. [Merging Data and Creating Data Visualizations with Ploty in JupyterLab Notebooks](https://app.gitbook.com/@melanieshimano/s/merging-data-and-plotly-visualizations/)
 
-The final notebooks from these tutorials are also available in this notebook:
+This tutorial reviews more solutions for data cleaning, data merging, and data visualizations with plotly. You can use [this](https://github.com/jhu-business-analytics/covid-19-case-python-data-analysis/blob/master/2020-04-03-covid19-county-management-gitbook-STARTER-melanieshimano.ipynb) pre-commented starter notebook to follow along with the tutorial, or copy and paste the code from the codeblocks (dark blue text boxes) in the tutorial.
+
+The final notebooks from these tutorials will be available [here]().
 
 ## Business Answer: Which Counties Should be Most Cautious as the COVID-19 Pandemic spread across the US?
 
