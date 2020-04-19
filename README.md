@@ -17,7 +17,7 @@ We want to better understand which counties might be most vulnerable to a fast-g
 We’ll use data from the following sources to assess our business question: 
 * [Johns Hopkins University Center for Systems Science and Engineering](https://github.com/CSSEGISandData/COVID-19) (COVID-19 case, death, recovered data)
 * [New York Times](https://github.com/nytimes/covid-19-data) (COVID-19 US county-specific data)
-* American Community Survey](https://data.census.gov/cedsci/table?q=United%20States&g=0100000US&tid=ACSDP1Y2018.DP05) (US county population data)
+* American Community Survey](https://data.census.gov/cedsci/table?q=United%20States&g=0100000US,.050000&tid=ACSST5Y2018.S0101&hidePreview=false&vintage=2018&layer=VT_2018_050_00_PY_D1&cid=DP05_0001E&t=Populations%20and%20People) (US county population data)
 * [US Census](https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html) (state and county geographic data)
 * [Homeland Infrastructure Foundation-Level](https://hifld-geoplatform.opendata.arcgis.com/datasets/hospitals)(US hospital data)
 
